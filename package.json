@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-definitivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinErimbaue/PreEntrega2-Erimbaue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinErimbaue/PreEntrega2-Erimbaue/issues"
+  },
+  "homepage": "https://github.com/AgustinErimbaue/PreEntrega2-Erimbaue#readme"
+}
