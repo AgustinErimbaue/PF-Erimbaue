@@ -29,8 +29,8 @@ header .nav {
   align-items: center;
   /* justify-content: center; */
   color: white;
-  padding-right: 1rem;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 header .nav li {
   font-family: "Montserrat", sans-serif;
@@ -123,7 +123,7 @@ article .buttons_container .button {
   overflow: hidden;
   transition: 0.2s;
 }
-article .buttons_container:hover .button:hover {
+article .buttons_container .button:hover {
   background-color: red;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
   transition-delay: 1;
@@ -150,7 +150,6 @@ article .imagen {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* flex-flow: row nowrap; */
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: flex-start;
@@ -160,7 +159,6 @@ article .imagen {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-flow: row nowrap; */
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: flex-start;
@@ -278,12 +276,6 @@ h1, h2, h3, h4 {
   main article .plan__imagen img:nth-child(3) {
     display: block;
   }
-}
-.article__img1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
