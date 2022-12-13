@@ -1,5 +1,5 @@
 main {
-    background-image: url(/image/main2.jpg);
+    background-image: url("../image/main2.jpg");
     background-size: 100%;
     @include espacio;
     background-attachment: fixed;
