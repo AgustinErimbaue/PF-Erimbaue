@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{font-family: $estilomont}
+
+p{font-family: $estilomont}
+
+
+h1, h2, h3, h4{font-family: $estilomont}
+@media (min-width: 768px) {
+
+    .nav{color: white;}
+    
+
+    main section .article__img1 {
+    
+      flex-direction:row
+    }
+  
+    .article__img1 img {
+      margin-right: 1rem;
+    }
+  
+    .rutina {
+      display: flex;
+      padding-bottom: 2rem;
+      justify-content: space-evenly;
+    }
+    
+    .main__dieta article .dieta-flex .imagen__dieta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-flow: row nowrap; */
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        margin-bottom: 1rem;
+    }
+    .plan__imagen {
+      justify-content: space-between;
+    }
+  
+    main article .plan__imagen img:nth-child(2) {
+        display: block;
+      }
+    
+      .plan_video {
+        width: 560px;
+      }
+    }
+    
+    @media (min-width: 900px) {
+        main article .plan__imagen img:nth-child(3) {
+        display: block;
+      }
+    }
+    

@@ -1,0 +1,33 @@
+main{
+    article{
+        .plan__imagen{
+            display: flex;
+            justify-content: center;
+            @include espacio;
+
+            img:nth-child(2),
+            img:nth-child(3) {
+                display: none;
+            }
+        }
+        
+        .plan__p{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            h1{
+                font-family: $estilomont;
+            }
+
+            p{
+                font-family: $estilomont;
+            }
+        }
+
+        .video_container{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 2rem;
+        }
+    }
+}

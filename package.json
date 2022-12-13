@@ -1,15 +1,16 @@
 {
-  "name": "proyecto-definitivo",
+  "name": "proyectodefinitivo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AgustinErimbaue/PreEntrega2-Erimbaue.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {

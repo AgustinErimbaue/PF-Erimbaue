@@ -1,0 +1,56 @@
+header {
+    background-image: url(/image/header.jpg);
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* height: 75px; */
+    padding-bottom: 1rem;
+
+    .logo{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     .logo__img{
+      height: 70px;
+      padding-left: 10px;
+      padding-top: 4px;
+     }
+
+     .logo__title{
+      font-size: 20px;
+      margin-left: 10px;
+      color: white;
+     }
+    }
+
+    .nav{
+        border-radius: 8px;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        color: white;
+        @include espacio;
+
+        li{
+            font-family: $estilomont;
+            list-style: none;
+            text-transform: uppercase;
+
+            a { 
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+                padding-right: 1rem;
+                color: inherit;
+                position: relative;
+            }
+
+            &:hover{
+                color: grey;
+                transition: 2seg;}
+        }
+    }
+}

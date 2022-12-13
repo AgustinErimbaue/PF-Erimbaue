@@ -1,0 +1,41 @@
+main {
+    background-image: url(/image/main2.jpg);
+    background-size: 100%;
+    @include espacio;
+    background-attachment: fixed;
+
+    section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        .article__title {
+            font-size: 25px;
+            padding-top: 15px;
+            padding-left: 5px;
+        }
+
+        .text {
+            font-family: $estilomont;
+            width: 200px;
+            border: 3px solid grey;
+            white-space: wrap;
+            overflow: hidden;
+            text-overflow: auto;
+            padding: 20px;
+            margin: 0;
+            background-color: white;
+            resize: horizontal;
+        }
+
+        .article__img1 {
+            @include imagen;
+            
+
+            .article__img {
+                margin-left: 5px;
+                margin-bottom: 1rem;
+                border-style: double;
+            }
+        }
+     }
+}

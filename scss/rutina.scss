@@ -1,0 +1,42 @@
+article {
+    .buttons_container{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0.5rem;
+        margin-bottom: 1rem;
+
+        .button {
+            padding: 14px;
+            background: rgb(0, 0, 0);
+            border: none;
+            color: white;
+            cursor: pointer;
+            letter-spacing: 4px;
+            font-size: 20;
+            overflow: hidden;
+            transition: 0.2s;
+
+            &:hover{
+                background-color: red;
+                box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+                transition-delay: 1;
+            }
+        }
+    }
+
+    h2{font-family: $estilomont;}
+
+    .titulo_rutina {
+        margin-bottom: 2rem;
+        font-family: $estilomont;
+    }
+
+    .rutina{ 
+        margin-bottom: 2rem;
+    }
+
+    .imagen{
+        width: 19rem;
+        border-style: double;
+    }
+}
