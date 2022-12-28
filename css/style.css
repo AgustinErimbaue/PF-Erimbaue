@@ -138,6 +138,26 @@ article .titulo_rutina {
 article .rutina {
   margin-bottom: 2rem;
 }
+article .rutina table {
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+}
+article .rutina table thead {
+  background-color: #246355;
+  color: white;
+  border-bottom: solid 5px #0F362D;
+}
+article .rutina table th, article .rutina table td {
+  padding: 8px;
+}
+article .rutina table tr:nth-child(even) {
+  background-color: #ddd;
+}
+article .rutina table tr:nth-child(even):hover {
+  background-color: #369681;
+  color: white;
+}
 article .imagen {
   width: 19rem;
   border-style: double;

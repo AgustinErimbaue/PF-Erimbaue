@@ -1,9 +1,5 @@
 header {
     background-image: url("../image/header.jpg");
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* height: 75px; */
     padding-bottom: 1rem;
 
     .logo{
@@ -30,7 +26,6 @@ header {
         justify-content: center;
         display: flex;
         align-items: center;
-        /* justify-content: center; */
         color: white;
         @include espacio;
 
